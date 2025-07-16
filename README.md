@@ -3,7 +3,7 @@
 This project is a **real-time chat application** built using Django, Django Channels, WebSockets, Redis, and HTMX.
 It enables seamless, bidirectional communication between users with live message broadcasting, active user tracking (user presence detection), with full support for group communication, asynchronous communication and dynamic frontend updates — all without the need for JavaScript.
 
----
+
 
 ## ✨ Features
 
@@ -19,7 +19,7 @@ It enables seamless, bidirectional communication between users with live message
   * Seamless UI interactions with zero JavaScript.
 * **Scalable Architecture**: Ready for production deployment with ASGI servers like Daphne or Uvicorn.
 
----
+
 
 ## 🧰 Technologies and Libraries Used
 
@@ -31,7 +31,7 @@ It enables seamless, bidirectional communication between users with live message
 * **ASGI**: Asynchronous Server Gateway Interface, replacing traditional WSGI.
 * **Daphne/Uvicorn**: ASGI servers used to serve the application.
 
----
+
 
 ## ⚙️ How It Works
 
@@ -59,7 +59,7 @@ It enables seamless, bidirectional communication between users with live message
    * HTMX is used for UI enhancements without writing any JavaScript.
    * Forms and user presence updates are dynamically rendered.
 
----
+
 
 ## 🚀 Setup and Usage
 
@@ -115,7 +115,7 @@ It enables seamless, bidirectional communication between users with live message
    http://localhost:8000
    ```
 
----
+
 
 ## 🗂️ Project Structure
 
@@ -133,13 +133,13 @@ realtime-websocket-chat/
 └── requirements.txt
 ```
 
----
+
 
 ## 💡 Example Use Case
 
 * **Messaging Platform**: Great for internal communication tools, customer support systems, or educational live chatrooms.
 
----
+
 
 ## ⚡ HTMX Integration
 
@@ -151,7 +151,7 @@ HTMX allows partial HTML updates from the server without full page reloads. In t
 
 HTMX is fully backend-driven and plays nicely with Django templates, making it beginner-friendly and powerful.
 
----
+
 
 ## 🏁 Production Tips
 
@@ -160,7 +160,7 @@ HTMX is fully backend-driven and plays nicely with Django templates, making it b
 * Deploy **Redis** in a secure, persistent environment.
 * Consider **Nginx** as a reverse proxy and TLS termination point.
 
----
+
 
 ## 📄 License
 
