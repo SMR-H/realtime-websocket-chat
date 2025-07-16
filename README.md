@@ -133,7 +133,13 @@ realtime-websocket-chat/
 └── requirements.txt
 ```
 
+## 📸 Screenshots
 
+### Public Group Chat (3 Users)
+![Public Chat](./assets/public-chat.png)
+
+### Private Chat (2 Users)
+![Private Chat](./assets/private-chat.png)
 
 ## 💡 Example Use Case
 

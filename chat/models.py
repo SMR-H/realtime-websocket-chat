@@ -24,10 +24,12 @@ class GroupMessage(models.Model):
     file = models.FileField(upload_to='files/', blank=True, null=True)
     created = models.DateTimeField(auto_now_add=True)
 
-
     def __str__(self):
         if self.body:
             return f'{self.author.username} : {self.body}'
-
+        elif self.file:
+            return f'{self.author.username} sent a file: {self.file.name}'
+        else:
+            return f'{self.author.username} sent an empty message'
     class Meta:
         ordering = ['-created']
